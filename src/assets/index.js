@@ -24,6 +24,7 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import github from "./github.png";
 import race_start from './race_start.jpg';
+import aerodynamic from './aerodynamic.jpg';
 
 export {
   f1_main,
@@ -51,5 +52,6 @@ export {
   instagram,
   linkedin,
   github,
-  race_start
+  race_start,
+  aerodynamic
 };
