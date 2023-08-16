@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { facebook, instagram, linkedin,  fia_president, hamilton, enzo, tv, helmet, watch, aws, crypto, aramco, dhl, github } from "../assets";
 
 export const navLinks = [
   {
@@ -7,39 +7,39 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "F1 TV",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Aerodynamics",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Quotes",
   },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: tv,
+    title: "Experience",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Do not miss any session of the season to enjoy your experience to the fullest with the maximum quality",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: watch,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "You will get access to the live timing of every driver and team when the cars are on track.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: helmet,
+    title: "On Boards",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Get access to all 20 on board cameras to cheer for your favorite drivers and teams.",
   },
 ];
 
@@ -47,44 +47,44 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "This is the best sport in the world. We are lucky enough to have the best fans out there!.",
+    name: "Lewis Hamilton",
+    title: "7X World Champion",
+    img: hamilton,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "Formula 1 is about passion, that's why we enjoy it so much.",
+    name: "Mohammed ben Sulayem",
+    title: "FIA President",
+    img: fia_president,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "Everyone dreams of driving a Ferrari, it was my intent from the start.",
+    name: "Enzo Ferrari",
+    title: "Scuderia Ferrari Founder",
+    img: enzo,
   },
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Fans",
+    value: "25M+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Partners",
+    value: "250+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Value",
+    value: "$3B+",
   },
 ];
 
@@ -93,19 +93,19 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
+        name: "Drivers",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Teams",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Strategy",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Rules",
         link: "https://www.hoobank.com/explore/",
       },
       {
@@ -122,7 +122,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Media",
         link: "https://www.hoobank.com/partners/",
       },
       {
@@ -143,7 +143,7 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
+        name: "Our Partners",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
@@ -158,40 +158,40 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/franco_alvarez83/",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/fran.alvarez.925/",
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
+    icon: github,
+    link: "https://github.com/FrancoAlvarez83",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/franco-alvarez-8ab600262/",
   },
 ];
 
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: aramco,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: crypto,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: aws,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: dhl,
   },
 ];

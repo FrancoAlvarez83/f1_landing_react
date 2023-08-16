@@ -1,10 +1,11 @@
 import { features } from '../constants'
+import { google, apple } from '../assets'
 import styles, {layout} from '../style'
 import Button from './Button'
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1} ? "mb-6" : "mb-0"} feature-card`}>
-      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
+      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-red-600`}>
         <img src={icon} alt="icon" className='w-[50%] h-[50%] object-contain'/>
       </div>
       <div className='flex-1 flex flex-col ml-3'>
@@ -18,13 +19,14 @@ const Business = () =>
   (
     <section id='features' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>You do the business, <br className='sm:block hidden'/> we'll handle the money.</h2>
+        <h2 className={styles.heading2}>You enjoy the racing, <br className='sm:block hidden'/> we'll do the work.</h2>
       
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>With the F1 TV App you will never miss one second of action from the best drivers and enginering in the world.</p>
 
-      <Button
-        styles="mt-10"
-      />
+      <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
+          <img src={apple} alt="apple_store" className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer'/>
+          <img src={google} alt="google_store" className='w-[128px] h-[42px] object-contain cursor-pointer'/>
+        </div>
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>
